@@ -1,0 +1,48 @@
+#drivers = []
+
+#for driver_number in range(20):
+ #   new_driver = {'speed':'medium', 'weight': 'heavy', 'handling': 'normal', 'color': 'dark', 'accelaration': 'fast'}
+#    drivers.append(new_driver)
+
+#for driver in drivers[:3]:
+ #   if driver['speed'] == 'medium':
+  #      driver['color'] = 'light'
+   #     driver['weight'] = 'light'
+    #    driver['speed'] = 'fast'
+
+#for driver in drivers[:5]:
+ #   print(driver)
+#print("...")
+
+#print(f"Total number of aliens: {len(drivers)}")
+
+#favorite_foods = {
+ #   'jen': ['apples', 'fruit'],
+  #  'nathan': ['shrimp','pizza'],
+   # 'nick': ['chinese', 'steak'],
+    #'will': ['ice cream', 'chiken'],
+#}
+#for name, foods in favorite_foods.items():
+ #   print(f"\n{name.title()}'s favorite foods are:")
+  #  for food in foods:
+   #     print(f"\t{food.title()}")
+
+users = {
+    'rackley': {
+        'first': 'nathan',
+        'last': 'rackley',
+        'location': 'anderson',
+    },
+    'samuel':{
+        'first': 'samuel',
+        'last': 'frick',
+        'location': 'anderson'
+    },
+}
+for username, user_info in users.items():
+    print(f"\nUsername: {username}")
+    full_name = f"{user_info['first']} {user_info['last']}"
+    location = user_info['location']
+
+    print(f"\tFull name: {full_name.title()}")
+    print(f"\tLocation: {location.title()}")
